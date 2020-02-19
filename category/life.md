@@ -1,6 +1,7 @@
 ---
 layout: category
-title: Life
+title: Front-End
 slug: life
-description: A category for life related posts.
+description: 앞단입니다
 ---
+
