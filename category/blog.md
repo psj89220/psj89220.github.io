@@ -1,7 +1,7 @@
 ---
 layout: category
-title: Blog
+title: 일상
 slug: blog
-description: A category for general blog posts.
+description: 잡담용
 ---
 
