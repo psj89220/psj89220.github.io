@@ -1,22 +1,21 @@
 # Site Settings
-name: Apocalypse's Dungeon
-title: Apocalypse's Dungeon
-description: 아포칼립스의 잡동사니 저장소
+name: Jekflix
+title: Jekflix | A blog theme for Jekyll
+description: Jekflix is a template for Jekyll inspired by Netflix and made by Thiago Rossener.
 tags:
   - blog
-  - tech
-  - programming
-  - game
-email: psj89220@gmail.com
-disqus_username: apocalypse
+  - template
+  - jekyll
+  - theme
+  - netlify
+email: youremail@xyz.com
+disqus_username: disqus_username
 show_hero: true
 menu:
   - title: Home
     url: /
   - title: About
     url: /about
-  - title: Tags
-    url: /tags
   - title: Contact
     url: /contact
   - title: Feed
@@ -25,26 +24,26 @@ menu:
 
 # Social Media Settings
 # Remove the item if you don't need it
-github_username: psj89220
-facebook_username: psj89220@naver.com
-twitter_username: psj89220
-# instagram_username: instagram_username
-# linkedin_username: linkedin_username
-# medium_username: medium_username
+github_username: github_username
+facebook_username: facebook_username
+twitter_username: twitter_username
+instagram_username: instagram_username
+linkedin_username: linkedin_username
+medium_username: medium_username
 
 
 # Posts Settings
 show_time_bar: true
-show_modal_on_exit: true
+show_modal_on_exit: false
 show_modal_on_finish_post: true
 two_columns_layout: true
 
 
 # Advanced Settings
-baseurl: "/" # the subpath of your site, e.g. /blog
-url: "https://psj89220.github.io" # the base hostname & protocol for your site
-google_analytics: "UA-158734455-1"
-language: "ko"
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "" # the base hostname & protocol for your site
+google_analytics: "UA-XXXXXXXX-X"
+language: "en"
 categories_folder: category
 sent_message_url: "/contact/message-sent/"
 
@@ -57,8 +56,7 @@ collections:
   authors:
     output: true
 paginate_path: "/page/:num/"
-show_get_theme_btn: false
-encoding: "utf-8"
+show_get_theme_btn: true
 use_logo: false
 
 # Content paginator

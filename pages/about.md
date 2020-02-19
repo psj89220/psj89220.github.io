@@ -1,21 +1,17 @@
 ---
 layout: page
-menu: true
-date: '2020-02-19 15:40:50'
 title: About
+description: Some description.
 permalink: /about/
-description: 자기소개.
 ---
-<img class="img-rounded" src="/assets/img/uploads/profile.png" alt="박상조" width="200">
+
+<img class="img-rounded" src="/assets/img/uploads/profile.png" alt="Thiago Rossener" width="200">
 
 # About
 
-게임좋아함
-
- 대마법사 될뻔함
-
-
-3대지랄견에 비견되는 성격
-
-
-재미있는걸 좋아합니다
+Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
