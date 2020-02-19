@@ -19,7 +19,7 @@ collections:
   authors:
     output: true
 paginate_path: "/page/:num/"
-show_get_theme_btn: false
+show_get_theme_btn: true
 use_logo: false
 
 # Content paginator
@@ -61,3 +61,6 @@ exclude: [
   'gulpfile.js',
   'README.md'
 ]
+
+# Theme
+version: v3.0.2
