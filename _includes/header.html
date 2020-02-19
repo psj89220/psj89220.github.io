@@ -1,23 +1,27 @@
-<header class="navigation" role="banner">
-  <div class="navigation-wrapper">
-    <a href="{{ site.baseurl }}/" class="logo">
-      {% if site.logo %}
-      <img src="{{ site.logo | prepend: site.baseurl }}" alt="{{ site.title }}">
-      {% else %}
-      <span>{{ site.title }}</span>
-      {% endif %}
+<header class="bar-header">
+    <a id="menu" role="button">
+        <svg id="open" class="icon-menu"><use xlink:href="#icon-menu"></use></svg>
     </a>
-    <a href="javascript:void(0)" class="navigation-menu-button" id="js-mobile-menu">
-      <i class="fa fa-bars"></i>
+    <h1 class="logo">
+        <a href="{{ site.baseurl }}/">
+            {% if site.use_logo %}
+                {% include logo.html %}
+            {% else %}
+                {{ site.name }} <span class="version">{{ site.version }}</span>
+            {% endif %}
+        </a>
+    </h1>
+    <a id="search" class="dosearch" role="button">
+        <svg class="icon-search"><use xlink:href="#icon-search"></use></svg>
     </a>
-    <nav role="navigation">
-      <ul id="js-navigation-menu" class="navigation-menu show">
-        {% for page in site.pages %}
-          {% if page.title and page.main_nav != false %}
-          <li class="nav-link"><a href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
-          {% endif %}
-        {% endfor %}
-      </ul>
-    </nav>
-  </div>
+    {% if site.show_get_theme_btn %}
+        <a href="https://github.com/thiagorossener/jekflix-template" class="get-theme" role="button">
+            Get this theme!
+        </a>
+    {% endif %}
 </header>
+
+<div id="mask" class="overlay"></div>
+
+{% include menu.html %}
+{% include search.html %}

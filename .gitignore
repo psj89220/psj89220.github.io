@@ -1,11 +1,8 @@
+.idea
 .DS_Store
-
-# Compiled site
-_site
-
-# Sass garbage
 .sass-cache
-
-# Bundler
-.bundle/
-vendor/
+Gemfile.lock
+package-json.lock
+_site
+node_modules
+_drafts

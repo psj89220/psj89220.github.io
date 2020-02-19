@@ -1,0 +1,21 @@
+name: Apocalypse's Dungeon
+title: Apocalypse's Dungeon
+description: 아포칼립스의 잡동사니 저장소
+tags:
+  - blog
+  - template
+  - jekyll
+  - theme
+  - netlify
+email: psj89220@naver.com
+disqus_username: apocalypse
+show_hero: true
+menu:
+  - title: Home
+    url: /
+  - title: About
+    url: /about
+  - title: Contact
+    url: /contact
+  - title: Feed
+    url: /feed.xml
