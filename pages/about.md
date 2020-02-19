@@ -1,8 +1,10 @@
 ---
 layout: page
+menu: true
+date: '2020-02-19 17:06:41'
 title: About
-description: Some description.
 permalink: /about/
+description: 자기소개
 ---
 
 <img class="img-rounded" src="/assets/img/uploads/profile.png" alt="Thiago Rossener" width="200">
