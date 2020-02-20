@@ -72,6 +72,7 @@ collections:
         widget: "relation"
         collection: "categories"
         searchFields: ["title"]
+        displayFields: ["title"]
       - label: "Tags"
         name: "tags"
         hint: "Separate with commas. These will also be used as keywords for search engines."
@@ -81,6 +82,7 @@ collections:
         widget: "relation"
         collection: "authors"
         searchFields: [display_name]
+        displayFields: [display_name]
       - label: "Paginate"
         name: "paginate"
         widget: "boolean"
