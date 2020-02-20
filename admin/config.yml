@@ -70,7 +70,6 @@ collections:
       - label: "Category"
         name: "category"
         widget: "relation"
-        default: ""
         collection: "categories"
         searchFields: ["title"]
         valueField: "slug"
@@ -82,7 +81,6 @@ collections:
       - label: "Author"
         name: "author"
         widget: "relation"
-        default: ""
         collection: "authors"
         displayFields: [display_name]
         searchFields: [display_name]
