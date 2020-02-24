@@ -11,6 +11,8 @@ menu:
     url: /
   - title: About
     url: /about
+  - title: tags
+    url: /tags
   - title: Contact
     url: /contact
   - title: Feed
