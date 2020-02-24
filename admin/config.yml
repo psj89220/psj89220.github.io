@@ -72,7 +72,7 @@ collections:
         widget: "relation"
         collection: "categories"
         searchFields: ["title"]
-        valueField: "slug"
+        valueField: "{{slug}}"
         displayFields: ["title"]
       - label: "Tags"
         name: "tags"
@@ -84,7 +84,7 @@ collections:
         collection: "authors"
         displayFields: [display_name]
         searchFields: [display_name]
-        valueField: "name"
+        valueField: "{{name}}"
       - label: "Paginate"
         name: "paginate"
         widget: "boolean"
