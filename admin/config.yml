@@ -72,8 +72,8 @@ collections:
         widget: "relation"
         collection: "categories"
         searchFields: ["title"]
-        displayFields: ["title"]
         valueField: "slug"
+        displayFields: ["title"]
       - label: "Tags"
         name: "tags"
         hint: "Separate with commas. These will also be used as keywords for search engines."
@@ -510,5 +510,3 @@ collections:
             name: "sent_message_url"
             hint: "URL where the user will be redirected for after submit the contact form. Ex: /contact/message-sent/"
             required: false
-
-
