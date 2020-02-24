@@ -73,7 +73,7 @@ collections:
         collection: "categories"
         searchFields: ["title"]
         displayFields: ["title"]
-        valueField: ""
+        valueField: "slug"
       - label: "Tags"
         name: "tags"
         hint: "Separate with commas. These will also be used as keywords for search engines."
@@ -84,7 +84,7 @@ collections:
         collection: "authors"
         displayFields: [display_name]
         searchFields: [display_name]
-        valueField: ""
+        valueField: "name"
       - label: "Paginate"
         name: "paginate"
         widget: "boolean"
