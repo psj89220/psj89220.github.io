@@ -1,14 +1,10 @@
-name: Jekflix
-title: Jekflix | A blog theme for Jekyll
-description: Jekflix is a template for Jekyll inspired by Netflix and made by Thiago Rossener.
+name: Apocalypse's Dungeon
+title: A's Dungeon | 기타 등등등 잡동사니 블로그
+description: Jekflix 베껴만들기
 tags:
   - blog
-  - template
-  - jekyll
-  - theme
   - netlify
-email: youremail@xyz.com
-disqus_username: disqus_username
+  - programming
 show_hero: true
 menu:
   - title: Home
@@ -19,3 +15,5 @@ menu:
     url: /contact
   - title: Feed
     url: /feed.xml
+email: psj89220@gmail.com
+disqus_username: Apocalypse
