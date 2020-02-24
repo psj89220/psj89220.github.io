@@ -1,7 +1,6 @@
 ---
 layout: category
-title: 게임
+title: Code
 slug: code
-description: 가끔 게임 이야기
+description: A category for code related posts.
 ---
-

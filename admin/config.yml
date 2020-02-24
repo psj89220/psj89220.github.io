@@ -72,7 +72,7 @@ collections:
         widget: "relation"
         collection: "categories"
         searchFields: ["title"]
-        valueField: "{{slug}}"
+        valueField: "slug"
         displayFields: ["title"]
       - label: "Tags"
         name: "tags"
@@ -84,7 +84,7 @@ collections:
         collection: "authors"
         displayFields: [display_name]
         searchFields: [display_name]
-        valueField: "{{name}}"
+        valueField: "name"
       - label: "Paginate"
         name: "paginate"
         widget: "boolean"
@@ -489,6 +489,7 @@ collections:
             name: "baseurl"
             widget: "string"
             hint: "The subpath of your site, e.g. /blog"
+            required: false
           - label: "URL"
             name: "url"
             widget: "string"
@@ -510,3 +511,5 @@ collections:
             name: "sent_message_url"
             hint: "URL where the user will be redirected for after submit the contact form. Ex: /contact/message-sent/"
             required: false
+
+

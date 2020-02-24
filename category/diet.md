@@ -1,7 +1,6 @@
 ---
 layout: category
-title: 독서
+title: Diet
 slug: diet
-description: 책좀 읽어야겠습니다
+description: A category for diet related posts.
 ---
-
