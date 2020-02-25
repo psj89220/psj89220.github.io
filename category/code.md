@@ -1,6 +1,7 @@
 ---
 layout: category
-title: Code
+title: 개발
 slug: code
 description: A category for code related posts.
 ---
+
