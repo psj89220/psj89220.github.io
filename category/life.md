@@ -1,6 +1,7 @@
 ---
 layout: category
-title: Life
+title: 공부
 slug: life
-description: A category for life related posts.
+description: 나름대로 공부한거 올려놓기
 ---
+
