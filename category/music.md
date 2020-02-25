@@ -1,6 +1,7 @@
 ---
 layout: category
-title: Music
+title: 구입기
 slug: music
-description: A category for music related posts.
+description: 재미있어보이는걸 사서 리뷰
 ---
+
